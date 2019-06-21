@@ -1,0 +1,12 @@
+Beautiful Soup Parsers:
+ -> lxml
+ -> xml
+ -> html.parser
+ -> html5lib
+
+BeautifulSoup objects:
+.prettify of BS objects (also tags within BS bjs) make the html look pretty like in editors
+.title (or any other tag) returns the first instance of the tag in full
+.title.text returns only the string between the tags
+.find() used to find returns first instance of item with the given parameters
+.find_all() returns all items with the given parameters
